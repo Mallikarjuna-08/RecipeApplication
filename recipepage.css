@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+/* Main Heading */
+.main-heading {
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 30px 0 20px;
+}
+
+/* Search Input */
+.search-input {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+/* Section Headings */
+.section-heading {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #34495e;
+    border-left: 6px solid #e67e22;
+    padding-left: 12px;
+}
+
+/* Info Box */
+.info-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    font-size: 17px;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+/* Ingredients Box */
+.ingredients-box {
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    font-size: 16px;
+    line-height: 1.7;
+    color: #6d4c41;
+}
+
+/* Instructions Box */
+.instructions-box {
+    background-color: #e8f8f5;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    font-size: 16px;
+    line-height: 1.8;
+    color: #1b4f72;
+}
+
+/* YouTube Link Button */
+.result-url {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.result-url:hover {
+    background-color: #c0392b;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 26px;
+    }
+
+    .section-heading {
+        font-size: 20px;
+    }
+
+    .search-input {
+        font-size: 16px;
+    }
+}
+.copy-btn {
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.copy-btn:hover {
+    background-color: #1e8449;
+}
